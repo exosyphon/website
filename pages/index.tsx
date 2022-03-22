@@ -7,8 +7,8 @@ function Index() {
         <title>App</title>
         <meta name="description" content="An app" />
       </Head>
-      <main className="flex flex-col items-center">
-        <h1 className="text-6xl">App</h1>
+      <main className="flex flex-col justify-center items-center h-screen">
+        <div className="text-5xl">Hello! My name is Andrew Courter</div>
       </main>
     </div>
   )

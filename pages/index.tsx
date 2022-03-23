@@ -14,7 +14,7 @@ const Index = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center mt-10">
         <div className="text-5xl">Hello!</div>
-        <div className="text-4xl">I'm Andrew Courter</div>
+        <div className="text-4xl">I&apos;m Andrew Courter</div>
         <div className="text-l p-1 text-center">
           <div>Experienced Software Engineer, Consultant, Manager,</div>
           <div>and Content Creator on Youtube</div>

@@ -21,6 +21,11 @@ const Navbar = () => {
                         Buy Me a Coffee
                     </a>
                 </Link>
+                <Link href='/services'>
+                    <a className='text-2xl px-3 py-2 font-bold hover:italic hover:underline'>
+                        Services
+                    </a>
+                </Link>
                 <Link href='/about'>
                     <a className='text-2xl `px-3 py-2 font-bold hover:italic hover:underline'>
                         About
@@ -35,6 +40,11 @@ const Navbar = () => {
                     <Link href='https://www.buymeacoffee.com/andrewcourter'>
                         <a className='text-3xl hover:italic hover:underline shadow-xl rounded-l-xl py-3 px-4 bg-black text-white'>
                             Buy Me a Coffee
+                        </a>
+                    </Link>
+                    <Link href='/services'>
+                        <a className='text-3xl hover:italic hover:underline shadow-xl rounded-l-xl py-3 px-4 bg-black text-white'>
+                            Services
                         </a>
                     </Link>
                     <Link href='/about'>

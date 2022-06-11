@@ -1,14 +1,14 @@
-import { Head } from 'next/document'
+import Head from 'next/head'
 import Link from 'next/link'
 import Navbar from '../src/components/navbar'
 
 const Products = () => {
     return (
         <div>
-            <Navbar />
             <Head>
                 <title>Products</title>
             </Head>
+            <Navbar />
             <div className="flex flex-col items-center justify-center mt-10">
                 <div className="text-5xl">Products</div>
                 <div className="max-w-5xl mt-2 p-2">

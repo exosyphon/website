@@ -1,9 +1,13 @@
+import { Head } from 'next/document'
 import Navbar from '../src/components/navbar'
 
 const About = () => {
     return (
         <div>
             <Navbar />
+            <Head>
+                <title>About</title>
+            </Head>
             <div className="flex flex-col items-center justify-center mt-10">
                 <div className="text-5xl">About</div>
                 <div className="max-w-5xl mt-2 p-2">

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Navbar from '../src/components/navbar'
 
-const About = () => {
+const Services = () => {
     return (
         <div>
             <Navbar />
@@ -24,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Services

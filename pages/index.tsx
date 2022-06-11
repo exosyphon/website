@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Avatar from '../src/components/avatar'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
+import CookieConsent from "react-cookie-consent"
+import Avatar from '../src/components/avatar'
 import Navbar from '../src/components/navbar'
-import CookieConsent from 'react-cookie-consent'
 
 const Index = () => {
   return (
@@ -49,7 +49,7 @@ const Index = () => {
           </Link>
         </div>
       </div>
-      <CookieConsent>
+      <CookieConsent cookieName='ga'>
         <span>This site uses cookies. See our</span>
         <Link href="https://www.termsfeed.com/live/64371ae2-26b9-4175-ae77-97a299960ff4">
           <a className='inline-flex items-center p-1 underline'>

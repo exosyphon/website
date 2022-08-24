@@ -1,5 +1,6 @@
 # website
 
+```mermaid
 sequenceDiagram
     par 
         UI->>Backend: Request for items
@@ -12,4 +13,4 @@ sequenceDiagram
         end
 				Cart Service->>UI: Items returned
     end
-    
+```

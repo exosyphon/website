@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div>
             <Head>
-                <title>Products</title>
+                <title>Services</title>
             </Head>
             <Navbar />
             <div className="flex flex-col items-center justify-center mt-10">

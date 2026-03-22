@@ -8,10 +8,15 @@ type Line = {
 const COMMANDS: Record<string, Line[]> = {
   '/whoami': [
     { type: 'output', text: 'Andrew Courter' },
-    { type: 'output', text: 'Director of Engineering' },
+    { type: 'output', text: 'Director of Engineering · 15+ years' },
     { type: 'output', text: '' },
-    { type: 'output', text: 'Pragmatic engineering leader with 10+ years building high-performing' },
-    { type: 'output', text: 'teams and software across healthcare, finance, defense, and media.' },
+    { type: 'output', text: 'Pragmatic, no-nonsense engineering leader — favors working software' },
+    { type: 'output', text: 'and strong team culture over process overhead.' },
+    { type: 'output', text: '' },
+    { type: 'output', text: 'Career spans healthcare, finance, defense, airline travel, and media.' },
+    { type: 'output', text: 'Former Pivotal Labs staff engineer. Founded EarthVectors consultancy.' },
+    { type: 'output', text: '' },
+    { type: 'output', text: 'M.S. & B.S. Computer Science — Texas Tech University' },
     { type: 'output', text: 'Lives in the terminal — Neovim, CLI tools, and the occasional coffee.' },
   ],
   '/help': [

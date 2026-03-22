@@ -41,14 +41,32 @@ function App({ Component, pageProps }) {
       `
         }
       </Script>
-      <CookieConsent location="top">
-        <span>This site uses cookies. See our</span>
+      <CookieConsent
+        location="top"
+        buttonText="Got it"
+        style={{
+          background: '#18181b',
+          borderBottom: '1px solid #27272a',
+          fontSize: '13px',
+          color: '#a1a1aa',
+          padding: '10px 24px',
+        }}
+        buttonStyle={{
+          background: 'transparent',
+          border: '1px solid #3f3f46',
+          color: '#a1a1aa',
+          fontSize: '12px',
+          borderRadius: '4px',
+          padding: '4px 12px',
+          cursor: 'pointer',
+        }}
+      >
+        This site uses cookies for analytics.{' '}
         <Link href="https://www.termsfeed.com/live/64371ae2-26b9-4175-ae77-97a299960ff4">
-          <a className='inline-flex items-center p-1 underline'>
+          <a style={{ color: '#71717a', textDecoration: 'underline' }}>
             Privacy Policy
           </a>
         </Link>
-        <span>for more information.</span>
       </CookieConsent>
       <Component {...pageProps} />
     </>)

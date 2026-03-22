@@ -14,7 +14,7 @@ const About = () => {
         <h1 className="text-3xl font-bold tracking-tight mb-8">About</h1>
         <div className="space-y-5 text-zinc-400 leading-relaxed">
           <p>
-            Andrew Courter is a Director of Engineering with over 10 years of experience building
+            Andrew Courter is a Director of Engineering with over 15 years of experience building
             software and the teams that ship it. He&apos;s known for a pragmatic, no-nonsense approach
             to engineering leadership — favoring working software and strong team culture over process
             overhead.

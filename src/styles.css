@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Roboto;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #09090b;
+  color: #f4f4f5;
+}

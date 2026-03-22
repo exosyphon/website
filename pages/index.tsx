@@ -53,7 +53,7 @@ const Index = () => {
 
       {/* Hero */}
       <div className="flex-[3] flex flex-col items-center justify-center gap-4 min-h-0 px-6">
-        <div className="relative w-24 h-24 rounded-full overflow-hidden ring-2 ring-zinc-700">
+        <div className="relative w-52 h-52 rounded-full overflow-hidden ring-2 ring-zinc-700">
           <Image src="/me.png" alt="Andrew Courter" layout="fill" objectFit="cover" />
         </div>
         <div className="text-center">
